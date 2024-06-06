@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gyorgi Kirkov CV</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  </head>
+  <body>
+    <div class="container" id="cv">
+      <div class="sidebar">
+        <div class="photo">
+          <img src="./GyorgiKirkov.jpg" alt="Gyorgi Kirkov" />
+        </div>
+        <div class="contact">
+          <h3>Kontakt</h3>
+          <p>Email: gyorgikirkov@outlook.com</p>
+          <p>Phone: +49 15566 750525</p>
+          <p>Whats'up: +49 1525 8773150</p>
+        </div>
+        <hr />
+        <div class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>
+              <h5>Programming Languages:</h5>
+              <p>
+                HTML, CSS, Bootstrap, Git, JavaScript, TypeScript, React,
+                Next.js
+              </p>
+            </li>
+            <li>
+              <h5>Technical Skills:</h5>
+              <p>
+                Microsoft Office, Adobe Photoshop CS4/CS6, Email, Social Media &
+                Research, POS Systems
+              </p>
+            </li>
+            <li>
+              <h5>Management Skills:</h5>
+              <p>
+                Team Leadership, Project Management, Budgeting and Finance,
+                Vendor Sourcing and Negotiations, Inventory Control, Logistics
+                Management
+              </p>
+            </li>
+            <li>
+              <h5>Interpersonal Skills:</h5>
+              <p>
+                Service Orientation, Administration and Management, Complex
+                Problem Solving, Quality-Control Analysis, Sales and Marketing
+              </p>
+            </li>
+            <li>
+              <h5>Flexibility:</h5>
+              <p>Adaptable to various work positions and environments</p>
+            </li>
+          </ul>
+        </div>
+        <hr />
+        <div class="languages">
+          <h3>Languages</h3>
+          <ul>
+            <li>Macedonian: Native</li>
+            <li>German: A2</li>
+            <li>English: C1</li>
+            <li>Greek: C1</li>
+            <li>Serbian: C1</li>
+            <li>Croatian: B2</li>
+            <li>Bulgarian: C1</li>
+          </ul>
+        </div>
+        <hr />
+        <div class="education">
+          <h3>Education</h3>
+          <p>Brainster Academy - 2024</p>
+          <p>S.U.G.S. Marija Kiri Sklodoska - 2010</p>
+        </div>
+      </div>
+      <div class="main">
+        <div class="nameAndAddress">
+          <h1>Gyorgi Kirkov</h1>
+          <p class="address">Magdeburg (Saxony-Anhalt), Germany</p>
+        </div>
+
+        <h2>Experience</h2>
+        <div class="timeline">
+          <div class="experience">
+            <div class="date">May 2024 – Present</div>
+            <div class="details">
+              <h3>Shift Manager</h3>
+              <p>McDonald’s - Germany</p>
+              <ul>
+                <li>
+                  Supervise daily operations to ensure quality, service, and
+                  cleanliness.
+                </li>
+                <li>Train and motivate team members to enhance performance.</li>
+                <li>Resolve customer inquiries and complaints efficiently.</li>
+                <li>Manage inventory and stock levels.</li>
+                <li>
+                  Implement and monitor promotions and marketing activities.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Dec 2023 – May 2024</div>
+            <div class="details">
+              <h3>Delivery Driver</h3>
+              <p>Amazon - Germany</p>
+              <ul>
+                <li>Delivered packages to customers accurately and on time.</li>
+                <li>
+                  Conducted vehicle inspections and maintained delivery logs.
+                </li>
+                <li>Provided exceptional customer service.</li>
+                <li>Optimized route planning for delivery efficiency.</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Apr 2022 – Dec 2023</div>
+            <div class="details">
+              <h3>E-Bike Assembler</h3>
+              <p>Technibike GmbH - Germany</p>
+              <ul>
+                <li>
+                  Performed final assembly and quality control of E-Bikes and
+                  Pedelecs.
+                </li>
+                <li>
+                  Supported manufacturability testing and initial assembly of
+                  new developments.
+                </li>
+                <li>
+                  Assembled prototypes for development, testing, and
+                  presentations.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Oct 2019 – Apr 2022</div>
+            <div class="details">
+              <h3>Crew Member</h3>
+              <p>McDonald’s - Germany</p>
+              <ul>
+                <li>Prepared food and assisted customers with orders.</li>
+                <li>
+                  Operated cash register and managed drive-thru operations.
+                </li>
+                <li>
+                  Ensured cleanliness and hygiene standards were maintained.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Jan 2019 – Jun 2019</div>
+            <div class="details">
+              <h3>Logistics Porter</h3>
+              <p>The Savoy - United Kingdom</p>
+              <ul>
+                <li>Served as wine and service waiter.</li>
+                <li>Set up for dinners, weddings, and award ceremonies.</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Sep 2018 – Jan 2019</div>
+            <div class="details">
+              <h3>Manager</h3>
+              <p>Burger King - United Kingdom</p>
+              <ul>
+                <li>
+                  Supervised staff to maintain quality and hygiene standards.
+                </li>
+                <li>Conducted leadership and staff coaching.</li>
+                <li>
+                  Managed administrative plans and ensured implementation of
+                  promotions.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Oct 2017 – Jul 2018</div>
+            <div class="details">
+              <h3>Restaurant Manager</h3>
+              <p>Beanos LTD - Malta</p>
+              <ul>
+                <li>Coordinated daily restaurant operations.</li>
+                <li>Maximized customer satisfaction and handled complaints.</li>
+                <li>
+                  Organized and supervised shifts, assessed staff performance.
+                </li>
+                <li>
+                  Controlled operational costs and prepared detailed financial
+                  reports.
+                </li>
+                <li>Promoted the brand through community engagement.</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Jun 2017 – Oct 2017</div>
+            <div class="details">
+              <h3>Machine Operator</h3>
+              <p>Play Mobile LTD - Malta</p>
+              <ul>
+                <li>Monitored machines for continuous operation.</li>
+                <li>
+                  Conducted quality checks on products to meet factory
+                  standards.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">May 2013 – Jun 2017</div>
+            <div class="details">
+              <h3>Hotel Manager</h3>
+              <p>Tomas Holidays D.O.O - Greece</p>
+              <ul>
+                <li>Managed reservations and operations for 170 rooms.</li>
+                <li>Supported administrative tasks and HR responsibilities.</li>
+                <li>Handled customer complaints and requests.</li>
+                <li>
+                  Supervised renovation projects and maintained properties.
+                </li>
+                <li>Managed finances and promoted the business.</li>
+              </ul>
+            </div>
+          </div>
+          <hr />
+          <div class="experience">
+            <div class="date">Apr 2010 – May 2013</div>
+            <div class="details">
+              <h3>Manager</h3>
+              <p>Kimata Beach Bar & Restaurant - Greece</p>
+              <ul>
+                <li>Managed employee shifts, payroll, and recruitment.</li>
+                <li>Collaborated with suppliers and managed inventory.</li>
+                <li>
+                  Resolved customer complaints and conducted satisfaction
+                  surveys.
+                </li>
+                <li>Promoted the bar and restaurant to increase sales.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center; margin: 20px">
+      <button onclick="downloadPDF()">Download as PDF</button>
+    </div>
+    <script>
+      window.jsPDF = window.jspdf.jsPDF;
+
+      function downloadPDF() {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF("p", "pt", "a4");
+
+        html2canvas(document.getElementById("cv")).then((canvas) => {
+          const imgData = canvas.toDataURL("image/png");
+          const imgProps = doc.getImageProperties(imgData);
+          const pdfWidth = doc.internal.pageSize.getWidth();
+          const pdfHeight = (imgProps.height * pdfWidth) / imgProps.width;
+          doc.addImage(imgData, "PNG", 0, 0, pdfWidth, pdfHeight);
+          doc.save("Gyorgi_Kirkov_CV.pdf");
+        });
+      }
+    </script>
+  </body>
+</html>
